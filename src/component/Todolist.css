@@ -1,0 +1,53 @@
+.container{
+    background-color: rgb(7,2,71);
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+}
+.header{
+    width: 100%;
+    padding: 12px 20px;
+    color:white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type=text],select{
+    width:80%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.add_button{
+    background-color: rgb(0, 255, 170);
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.textBox_css{
+    color:black;
+    height: 25px;
+    width: 60%;
+     display: inline-flex; 
+    border-radius: 5px;
+    background-color:white;
+}
+.Remove_css{
+    margin-left: 20px;
+     padding: 5px ;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 170);
+   margin-top: 0%;
+   display: inline-flex;
+}
+.list_heading{
+    margin-top: 0%;
+    color:aliceblue;
+    font-size: 20px;
+}
