@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "name": "Mani",
+      "email": "mani@mail.com",
+      "address": "West street",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Robert",
+      "email": "robert@mail.com",
+      "address": "East street"
+    },
+    {
+      "id": 3,
+      "name": "Mani",
+      "email": "mani@mail.com",
+      "address": "West street"
+    },
+    {
+      "name": "pooja",
+      "email": "pooja@gmail.com",
+      "address": "Pandharpur",
+      "id": 4
+    },
+    {
+      "name": "bhagwat",
+      "email": "bhagwat@gmail.com",
+      "address": "Pune",
+      "id": 5
+    },
+    {
+      "name": "Ashiwini",
+      "email": "Ashiwini@gmail.com",
+      "address": "Jalgoan",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
