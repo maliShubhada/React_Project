@@ -39,7 +39,7 @@ h1{
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .cards__item__pic-wrapper {
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -67,7 +67,6 @@ h1{
   
   .cards__item__img {
     position: absolute;
-    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
@@ -90,10 +89,9 @@ h1{
   }
   
   .cards__item__text {
-    color: white;
+    color: black;
     font-size: 18px;
     line-height: 24px;
-    z-index: -1;
   }
   
   @media only screen and (min-width: 1200px) {
