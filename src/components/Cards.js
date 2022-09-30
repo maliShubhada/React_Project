@@ -4,7 +4,7 @@ import '../styles/Cards.css';
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check Out These Epic Destination!</h1>
+      <h1 className="cards_css">Check Out These Epic Destination!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
