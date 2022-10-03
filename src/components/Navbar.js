@@ -1,7 +1,7 @@
 
 import React, { useEffect } from "react";
 import react,{useState} from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "./Button";
 import '../styles/Navbar.css'
 function Navbar() {
@@ -9,12 +9,16 @@ function Navbar() {
     const [button,setButton]=useState(true);
     const handleClick=()=>setClick(!click); 
     const closeMobileMenu=()=>setClick(false);
+    const navigate=useNavigate('')
     const showButton=()=>{
         if(window.innerWidth<=960){
             setButton(false)
         }else{
             setButton(true)
         }
+    }
+    const LogOutToHome=()=>{
+      navigate('/products')
     }
     useEffect(()=>{
         showButton();
@@ -44,7 +48,7 @@ function Navbar() {
             <Link to='/sign-up' className="nav-links" onClick={closeMobileMenu}>sign Up</Link>
            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={LogOutToHome}>Log Out</Button>}
         </div>
       </nav>
     </div>
