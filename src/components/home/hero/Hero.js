@@ -7,7 +7,7 @@ export const Hero = () => {
      <section className='hero'>
         <div className='container'>
             <Heading title='Search Your Next Home' subtitle='Find new and featured property located in your local city' />
-            <form action='' className='flex'>
+            <form action='' className='flex form-search'>
                 <div className='box'>
                  <label>city/Street:</label>
                 <input type='text' placeholder='Location'/>

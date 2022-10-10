@@ -5,6 +5,9 @@ import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
 import Home from "../../home/Home";
 import Featured from "../../home/featured/Featured";
+import Recent from "../../home/recent/Recent";
+import Awards from "../../home/awards/Awards";
+import Location from "../../home/location/Location";
 
 
 export const Header = () => {
@@ -47,7 +50,9 @@ export const Header = () => {
       </header>
       <Home/>
      <Featured/>
-      
+      <Recent/>
+      <Awards/>
+      <Location/>
     </div>
   );
 };
