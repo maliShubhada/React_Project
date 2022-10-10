@@ -1,17 +1,10 @@
-
-import React, { useState } from "react"
-import "./Header.css"
-import { nav } from "../../data/Data"
-import { Link } from "react-router-dom"
-import Home from "../../home/Home";
-import Featured from "../../home/featured/Featured";
-import Recent from "../../home/recent/Recent";
-import Awards from "../../home/awards/Awards";
-import Location from "../../home/location/Location";
-
+import React, { useState } from "react";
+import "./Header.css";
+import { nav } from "../../data/Data";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
-    const [navList, setNavList] = useState(false)
+  const [navList, setNavList] = useState(false);
   return (
     <div>
       <header>
@@ -48,11 +41,6 @@ export const Header = () => {
           </div>
         </div>
       </header>
-      <Home/>
-     <Featured/>
-      <Recent/>
-      <Awards/>
-      <Location/>
     </div>
   );
 };
